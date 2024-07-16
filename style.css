@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+.logo img{
+    width: 90px;
+    height: 60px;
+    margin-left: 70px;
+    padding-top: 5px;
+}
+.menu{
+    margin-top: 30px;
+    margin-left: 120px;
+}
+.menu a{
+    text-decoration: none;
+    padding:  25px 30px;
+    color: black;
+}
+.menu a:hover{
+    background-color: red;
+}
+.btn{
+    margin-top: 10px;
+    margin-left: 120px;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+    padding-right: 20px;
+}
+.btn .search{
+    padding-right: 15px;
+}
+.btn .globe{
+    padding-right: 5px;
+}
+.btn button{
+    color: white;
+    background-color: red;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+}
+#main{
+    background-color: red;
+    color: white;
+}
+#main h1{
+    margin-top: 80px;
+    margin-left: 150px;
+    padding-bottom: 20px;
+}
+#main p{
+    margin-left: 150px;
+}
+.delivery{
+    width: 500px;
+    margin-top: 15px;
+    position: relative;
+}
+.geo{
+    padding-left: 5px;
+    padding-right: 10px;
+}
+#main button{
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 160px;
+    margin-top: 350px;
+    position: absolute;
+    z-index: 3;
+}
+.container{
+    background-color: white;
+    color: black;
+    padding-left: 30px;
+    width: 600px;
+    position: absolute;
+    z-index: 2;
+    margin-top: -15%;
+    margin-left: 120px;
+    border-radius: 5px;
+    padding-bottom: 60px;
+}
+.container h5{
+    padding-top: 50px;
+    font-weight: 500;
+}
+.container input{
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    border: none;
+    width: 100%;
+    text-align: center;
+}
+.container p{
+    padding-top: 20px;
+}
+.geo2{
+    margin-left: 10px;
+    position: absolute;
+    z-index: 3;
+    margin-top: 15px;
+    padding: 0 10px;
+}
+span{
+    text-decoration: underline;
+    color: red;
+}
+.signup{
+    padding: 10px 25px;
+    border-radius: 25px;
+    border: none;
+
+}
+.next{
+    color: white;
+    background-color: red;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 25px;
+    margin-left: 180px;
+}
